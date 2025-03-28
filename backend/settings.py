@@ -120,6 +120,10 @@ TEMPLATES = [
 WSGI_APPLICATION = 'backend.wsgi.application'
 
 
+CORS_ALLOWED_ORIGINS = [
+    "https://fitfusion-web.vercel.app",
+    # Add other allowed origins if needed
+]
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
